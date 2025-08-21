@@ -1,16 +1,25 @@
 Package: randomizeR2.0
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Randomization and Inference in clinical trials
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
+      "Diane", "Uschner",
+      email = "diane.uschner@gmail.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-7858-796X")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This package extends and updates the functionality of the original 
+    package `randomizeR`. Adopting the tidyverse framework, it updates the 
+    plotting and assessment capabilities. It provides beautiful reports and 
+    figures. New functionality includes further bias assessment metrics
+    and randomization-based inference. The highlights are the vignettes 
+    and the shiny app.
+License: GLP-3
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    randomizeR,
+    tidyr
